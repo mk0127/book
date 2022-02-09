@@ -19,5 +19,13 @@ class CategoriesTableSeeder extends Seeder
             
             'name' => '伝記'
         ]);
+        DB::table('categories')->insert([
+            
+            'name' => '漫画'
+        ]);
+        DB::table('categories')->insert([
+            
+            'name' => '雑誌'
+        ]);
     }
 }
